@@ -6,26 +6,19 @@
 
 1.优先级
         web.xml > struts.properties > struts.xml > default.properties
-
-
- 2.加载顺序
+2.加载顺序
         1.default.properties文件 
         作用:定义了struts2框架中所有常量 
         位置: org/apache/struts2/default.properties
-
         2.struts-default.xml 
         作用:配置了bean,interceptor,result等。 
         位置:在struts的core核心jar包. 
-        
         struts-plugin.xml 
         它是struts2框架中所使用的插件的配置文件。
-        
         struts.xml 
         我们使struts2所使用的配置文件。
-        
         3.struts.properties 
         就是可以自定义常量。
-        
         4.web.xml
 --------------------- 
 作者：20508LAlala 
